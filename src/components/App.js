@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {Route, Router, Switch} from "react-router-dom";
 import Header from "./Header/Header";
 import StreamList from "./streams/streamList";
@@ -8,6 +7,7 @@ import StreamEdit from "./streams/streamEdit";
 import streamDelete from "./streams/streamDelete";
 import streamShow from "./streams/streamShow";
 import history from '../history'
+import '../App.css'
 
 const App = () => {
     return (
